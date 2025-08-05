@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 3",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is an individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It serves as your online identity, making it easier and more secure to use various government services. There are two versions: SarawakID for individual use and SarawakID Corp for corporations. To register, you can click the SarawakID Register button on any Sarawak Government website and follow the instructions. Verification of your account can be done at Service Sarawak Counters, Kiosks, or via the eKYC online process or mobile app.",
+    "fullResponseTime": 13154,
+    "firstResponseTime": 6028,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "74.32%",
+    "memoryUsageRSS": "0.60%"
+  },
+  {
+    "user": "User 3",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If your IC has already been registered, it's possible that you may have previously registered for SarawakID or someone else may have mistakenly used your IC details. To resolve this issue, you can try the following steps: Contact Support: Reach out to SarawakID support or the Service Sarawak team for assistance. They can check if an account has already been created using your IC and help you resolve the issue. Visit Service Sarawak Kiosk or Counter: You can visit a Service Sarawak Kiosk or Counter in person with your MyKad to inquire about the problem and seek assistance. Check for Account Recovery Options: If you have an account but can't access it, look for account recovery options on the SarawakID website or contact their support for further assistance. These steps should help you resolve the issue with your SarawakID registration.",
+    "fullResponseTime": 12684,
+    "firstResponseTime": 6506,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "69.24%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 3",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request regarding the Senior Citizen Health Benefit eligibility is currently underway. We will update you with the necessary information shortly. Thank you for your patience.",
+    "fullResponseTime": 35938,
+    "firstResponseTime": 5889,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "56.43%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 3",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is a centralized online resource provided by the Sarawak Government that allows you to access all online Sarawak government services and information. It is designed to be a one-stop portal where you can find government services conveniently sorted by topic. To access these services, you need to register for a Sarawak ID account, which acts as your single-sign-on identity for secure access to Sarawak Government digital services.",
+    "fullResponseTime": 12342,
+    "firstResponseTime": 6119,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "65.10%",
+    "memoryUsageRSS": "0.48%"
+  },
+  {
+    "user": "User 3",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "I'm sorry, but the context provided does not include information about fees for upgrading the registration class in the electrical field. You might need to check directly with the relevant Sarawak Government department or their official website for detailed information regarding fees and procedures related to electrical field registration upgrades.",
+    "fullResponseTime": 13781,
+    "firstResponseTime": 6499,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "70.48%",
+    "memoryUsageRSS": "0.48%"
+  }
+]

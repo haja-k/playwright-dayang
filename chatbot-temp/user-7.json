@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 7",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you are receiving a message that your IC has been registered before, it likely means that there is already an account associated with your IC number. Here are a few steps you can take: Check for Previous Registration: Try to recall if you have previously registered for SarawakID using your IC. If you have, attempt to log in using that account. Password Recovery: If you remember registering but have forgotten your login credentials, use the password recovery or reset option on the SarawakID login page. Contact Support: If you are certain you haven't registered before and are facing this issue, you should contact SarawakID support or visit a Service Sarawak Kiosk or Counter for assistance. They can help you verify and resolve any registration issues. Visit a Service Sarawak Counter: Bringing your MyKad with you, you can visit a Service Sarawak Kiosk or Counter in person for assistance with registration or to resolve any discrepancies. These steps should help you address the issue with registering your SarawakID.",
+    "fullResponseTime": 13173,
+    "firstResponseTime": 7100,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "63.51%",
+    "memoryUsageRSS": "0.52%"
+  },
+  {
+    "user": "User 7",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "The agency assigned to your Talikhidmat case with the number 20240325-0006 is Talikhidmat. The status of the case is currently In Progress.",
+    "fullResponseTime": 22154,
+    "firstResponseTime": 5791,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "51.06%",
+    "memoryUsageRSS": "0.49%"
+  },
+  {
+    "user": "User 7",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "To check your gas bill with Sarawak Gas Distribution Sdn. Bhd., I will use the account number 056-G2299. For your electricity bill with Sarawak Energy Berhad (SEB), I will use the account number 201166495100. Unfortunately, as a text-based AI, I don't have direct access to billing systems. You will need to log in to your respective utility provider's online portal or contact their customer service to access your bills using these account numbers. If you have any more questions or need further assistance, feel free to ask!",
+    "fullResponseTime": 21401,
+    "firstResponseTime": 10141,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "61.67%",
+    "memoryUsageRSS": "0.49%"
+  },
+  {
+    "user": "User 7",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request regarding the eligibility for enrollment in the Senior Citizen Health Benefit is currently underway. We will update you with the necessary information soon. Thank you for your patience.",
+    "fullResponseTime": 36732,
+    "firstResponseTime": 6671,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "86.57%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 7",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "I'm sorry, but the provided context does not include information about the fee for upgrading the registration class in the electrical field. You may need to contact the relevant authorities or agencies involved in electrical field registration for accurate information regarding fees.",
+    "fullResponseTime": 15986,
+    "firstResponseTime": 7023,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "90.70%",
+    "memoryUsageRSS": "0.50%"
+  }
+]

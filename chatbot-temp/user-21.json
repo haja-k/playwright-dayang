@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 21",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Thank you for your inquiry regarding the Senior Citizen Health Benefit eligibility. Your request is currently being processed. We will provide you with the necessary information shortly.",
+    "fullResponseTime": 36551,
+    "firstResponseTime": 6511,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "57.60%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 21",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Based on the information provided, I can assist you with the gas bill for Sarawak Gas Distribution Sdn. Bhd. (SGAS) with the account number '056-G2299'. However, I need more details regarding the electricity bill from Sarawak Energy Berhad (SEB or SESCO) with the account number '201166495100', as the account number seems to be invalid or incomplete. Could you please verify the account number for the electricity bill? If you have any additional information or a sample bill, it would be helpful to ensure accuracy. Please let me know how you would like to proceed!",
+    "fullResponseTime": 18066,
+    "firstResponseTime": 5885,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "56.75%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 21",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "SarawakID and SarawakID Corp serve different functions within the Sarawak digital ecosystem: SarawakID: This is a digital identity platform designed to allow users to access various government services and applications with a single login. It simplifies the process of accessing services by providing a secure and convenient way for residents to manage their identities online. SarawakID Corp: This usually refers to the corporate entity or organization responsible for managing and overseeing the SarawakID platform. This organization handles the development, maintenance, and enhancement of the digital identity services, ensuring they meet user needs and comply with relevant regulations. If you need more detailed information on a specific aspect, feel free to ask!",
+    "fullResponseTime": 18321,
+    "firstResponseTime": 6136,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "52.43%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 21",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you're unable to register your SarawakID because it says your IC has already been registered, you might consider the following steps: Check for Existing Account: Ensure that you haven't registered previously. If you have, try recovering your account using the \"Forgot Password\" option or similar recovery methods. Contact Support: Reach out to the SarawakID support team or visit a Service Sarawak Kiosk or Counter for assistance. They can help verify if your IC is linked to an existing account and guide you on how to proceed. Verify at Service Sarawak: If you've registered previously but haven't verified your account, visit a Service Sarawak Counter or Kiosk for verification. You can also verify via eKYC Online or the eKYC Sarawak Gov Mobile App. These steps should help you resolve the registration issue. If you need further assistance, consider contacting SarawakID support directly for more personalized help.",
+    "fullResponseTime": 12919,
+    "firstResponseTime": 5781,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.75%",
+    "memoryUsageRSS": "0.48%"
+  },
+  {
+    "user": "User 21",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "The request regarding the fee for upgrading the registration class in the electrical field is currently underway. Please stay tuned for further updates.",
+    "fullResponseTime": 36515,
+    "firstResponseTime": 6474,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.92%",
+    "memoryUsageRSS": "0.47%"
+  }
+]

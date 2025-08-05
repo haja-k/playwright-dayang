@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 5",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "Hi there! I am Dayang, How can I help you today?",
+    "fullResponseTime": 16944,
+    "firstResponseTime": 349,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "66.70%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 5",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It provides easy and secure access to various online services offered by the Sarawak Government. There are two versions of SarawakID: one for individual use and another for corporations, known as SarawakID Corp. To register for SarawakID, you can click the SarawakID Register button on any Sarawak Government website and follow the step-by-step process. Verification of the SarawakID account can be done at a Service Sarawak Counter, Kiosk, or online via eKYC.",
+    "fullResponseTime": 12239,
+    "firstResponseTime": 6144,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "74.85%",
+    "memoryUsageRSS": "0.49%"
+  },
+  {
+    "user": "User 5",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Here are the details for your bills: Gas Bill: Provider: Sarawak Gas Distribution Sdn. Bhd. (SGAS) Account Number: 056-G2299 Bill Date: 02-07-2025 Total Amount Due: RM 22.40 Electricity Bill: Account Number: 201166495100 You can proceed with the payment for both your gas and electricity bills through this link. If you need any further assistance, feel free to ask!",
+    "fullResponseTime": 24012,
+    "firstResponseTime": 21035,
+    "apdexRating": "Tolerable",
+    "cpuUsagePercent": "55.57%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 5",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "The fee for upgrading the registration class in the electrical field can vary based on the requirements and the authority overseeing the registration. To get the most accurate information, you should check with the relevant regulatory body or agency that manages electrical registrations in your area. For example, if you're looking to upgrade your registration with the Suruhanjaya Tenaga (Energy Commission) in Malaysia, they usually provide a fee schedule on their official website. It would be best to visit their site or contact them directly for precise details. If you have a specific registration class or agency in mind, feel free to share more details, and I can help you find more specific information!",
+    "fullResponseTime": 19463,
+    "firstResponseTime": 7082,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "57.26%",
+    "memoryUsageRSS": "0.49%"
+  },
+  {
+    "user": "User 5",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal, or Sarawak Energy Group Portal, is an online platform that provides access to various services and information related to Sarawak Energy. It allows users to manage their accounts, view and pay bills, track energy usage, and access other services offered by Sarawak Energy. Through the SEG Portal, you can: View your electricity and gas bills. Make payments online. Check your account details and energy consumption. Report any issues or outages. If you need assistance with a particular feature or have specific questions about the SEG Portal, feel free to ask!",
+    "fullResponseTime": 19424,
+    "firstResponseTime": 6771,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "75.16%",
+    "memoryUsageRSS": "0.49%"
+  }
+]

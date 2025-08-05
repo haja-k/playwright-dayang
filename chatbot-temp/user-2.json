@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 2",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is a one-stop online resource provided by the Sarawak Government. It allows users to access all online Sarawak government services and information. The portal conveniently organizes these services by topic, and to access them, users need to register for a Sarawak ID account.",
+    "fullResponseTime": 14189,
+    "firstResponseTime": 7014,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "73.42%",
+    "memoryUsageRSS": "0.56%"
+  },
+  {
+    "user": "User 2",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual online identity that provides secure access to Sarawak Government digital services. It serves as a single-sign-on identity for individuals to easily access various services offered by the government. For corporations, there is a version called SarawakID Corp.",
+    "fullResponseTime": 12131,
+    "firstResponseTime": 9058,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "70.24%",
+    "memoryUsageRSS": "0.63%"
+  },
+  {
+    "user": "User 2",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you're unable to register your SarawakID because it says your IC has been registered before, it's possible that your information is already associated with an existing account. Here are a few steps you could take: Check for an Existing Account: Try to recall if you have previously registered for a SarawakID. If you have, attempt to log in using any email or phone number you might have used. Contact Support: If you're certain you haven't registered before, or if you can't access an existing account, contact SarawakID support for assistance. They may be able to provide more information or help resolve the issue. Visit a Service Sarawak Kiosk or Counter: You can also visit a Service Sarawak Kiosk or Counter to inquire about the registration issue in person. Bring your MyKad or passport with you for verification purposes. These steps should help you resolve the issue with your SarawakID registration.",
+    "fullResponseTime": 13258,
+    "firstResponseTime": 6173,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "66.24%",
+    "memoryUsageRSS": "0.64%"
+  },
+  {
+    "user": "User 2",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "SarawakID is an individual online identity that provides secure access to Sarawak Government digital services, serving as a single-sign-on for individuals. SarawakID Corp, on the other hand, is designed for corporations, allowing businesses to access and manage government services specific to corporate needs. The main difference between the two is the type of user they cater to: SarawakID is for individuals, while SarawakID Corp is for corporate entities. Registration and login processes for SarawakID Corp involve additional steps for verifying corporate information and credentials, unlike the individual SarawakID account.",
+    "fullResponseTime": 13591,
+    "firstResponseTime": 6422,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "49.45%",
+    "memoryUsageRSS": "0.64%"
+  },
+  {
+    "user": "User 2",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "Based on the provided context, your Talikhidmat case with the number 20240325-0006 is currently assigned to the agency named Talikhidmat. The status of the agency handling your case is \"In Progress.\"",
+    "fullResponseTime": 15568,
+    "firstResponseTime": 6415,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "54.36%",
+    "memoryUsageRSS": "0.64%"
+  }
+]

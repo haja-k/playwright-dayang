@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 11",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "Based on the information provided, your Talikhidmat case with the case number 20240325-0006 is currently assigned to the agency named Talikhidmat. The case status is marked as \"In Progress\", and the agency status is also \"In Progress\".",
+    "fullResponseTime": 18291,
+    "firstResponseTime": 6190,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "91.78%",
+    "memoryUsageRSS": "0.51%"
+  },
+  {
+    "user": "User 11",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "I have successfully retrieved the details for your bills. For your gas bill with Sarawak Gas Distribution Sdn. Bhd. (SGAS), the account number is 056-G2299. The bill date is 02-07-2025, and the total amount due is RM 22.40. Unfortunately, I do not have information on the electricity bill with the account number 201166495100 from the context provided. You may want to check directly through the payment link or contact the service provider for further further details. You can proceed with the payment for your gas bill through this link. If you need any further assistance, feel free to ask!",
+    "fullResponseTime": 22623,
+    "firstResponseTime": 6274,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "67.61%",
+    "memoryUsageRSS": "0.52%"
+  },
+  {
+    "user": "User 11",
+    "message": "What is a SEG Portal?",
+    "response": "The SEG Portal, or Sarawak Energy Group Portal, is an online platform provided by Sarawak Energy Berhad that allows users to access various services related to their electricity accounts. Through the SEG Portal, customers can manage their accounts, view their electricity bills, make payments, and track their energy usage. If you need help navigating or have specific questions about what you can do on the SEG Portal, feel free to ask!",
+    "fullResponseTime": 17174,
+    "firstResponseTime": 7037,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "50.64%",
+    "memoryUsageRSS": "0.52%"
+  },
+  {
+    "user": "User 11",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "SarawakID is an individual account system, whereas SarawakID Corp is a corporate account system. SarawakID is used for personal identification and accessing services as an individual, while SarawakID Corp is meant for businesses and corporations to register and access services related to their corporate activities. To register a SarawakID Corp account, you must first have a verified SarawakID account. The registration process for SarawakID Corp involves providing corporate information, verifying contact and owner details, and agreeing to terms and conditions.",
+    "fullResponseTime": 11165,
+    "firstResponseTime": 6124,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.29%",
+    "memoryUsageRSS": "0.55%"
+  },
+  {
+    "user": "User 11",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request regarding the eligibility for the Senior Citizen Health Benefit is currently underway. We will update you with the relevant information soon.",
+    "fullResponseTime": 35919,
+    "firstResponseTime": 5869,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "48.95%",
+    "memoryUsageRSS": "0.53%"
+  }
+]

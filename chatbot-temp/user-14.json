@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 14",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Thank you for your inquiry regarding the eligibility for the Senior Citizen Health Benefit enrollment. Your request is currently being processed. We'll update you shortly with more details.",
+    "fullResponseTime": 36207,
+    "firstResponseTime": 6153,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "51.02%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 14",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "Your request regarding the fee for upgrading the registration class in the electrical field is currently underway. We will provide you with the information as soon as possible. Thank you for your patience.",
+    "fullResponseTime": 36856,
+    "firstResponseTime": 6821,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "49.99%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 14",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "SarawakID and SarawakID Corp serve different purposes within the Sarawak digital ecosystem. SarawakID: This is primarily an individual account used for accessing various digital services provided by the Sarawak government. It verifies your identity and allows you to engage with government services online. SarawakID Corp: This is a corporate account that requires registration through a verified SarawakID. It is intended for businesses or corporate entities to access services tailored to corporate needs, such as managing corporate information, uploading corporate registration certificates, and having the ability to switch between individual and corporate accounts. In summary, SarawakID is for individual use, while SarawakID Corp is for corporate or business use, requiring additional steps for registration and verification.",
+    "fullResponseTime": 12732,
+    "firstResponseTime": 6568,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "82.24%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 14",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Here are the details for your bills: Gas Bill from Sarawak Gas Distribution Sdn. Bhd. (SGAS): Account Number: 056-G2299 Bill Date: 02-07-2025 Bill Amount: RM 4.75 Total Amount Due: RM 22.40 You can proceed with the payment for this bill. Electricity Bill from Sarawak Energy Berhad (SEB): Unfortunately, I do not have the specific details for the SEB bill number 201166495100. You can make payments for both bills through this link. If you need further assistance regarding the SEB bill, please let me know!",
+    "fullResponseTime": 30711,
+    "firstResponseTime": 6672,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "78.37%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 14",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is an individual account designed for accessing various digital services provided by the Sarawak government. It serves as a means to verify your identity and allows you to engage with government services online. With SarawakID, you can manage your personal information, access services, and perform transactions related to government offerings conveniently from your device.",
+    "fullResponseTime": 16616,
+    "firstResponseTime": 6435,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "71.21%",
+    "memoryUsageRSS": "0.50%"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "dayang-dify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "combine_result.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

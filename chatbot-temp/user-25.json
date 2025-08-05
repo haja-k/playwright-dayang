@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 25",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Thank you for your inquiry about enrolling in the Senior Citizen Health Benefit. Your request is currently being processed, and we will provide you with eligibility information shortly.",
+    "fullResponseTime": 36117,
+    "firstResponseTime": 6093,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "54.35%",
+    "memoryUsageRSS": "0.51%"
+  },
+  {
+    "user": "User 25",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you're encountering an issue where your IC (MyKad) appears to have been registered before, it is possible that there might be an error or a duplicate account associated with your identification number. Here are some steps you can take: Contact Support: Reach out to the SarawakID support team or customer service for assistance. They can help you verify whether your IC has been registered previously and assist in resolving any issues. Visit a Service Sarawak Kiosk or Counter: You can go to a Service Sarawak Kiosk or Counter in person with your MyKad. The staff there might be able to help you resolve the issue directly. Email or Call Customer Service: Look for contact details on the SarawakID website or related government websites and contact them via email or phone for further assistance. Check for Errors: Ensure that you have entered the correct IC number and personal details when attempting to register. Sometimes, simple errors can cause registration issues. If these steps don't resolve the issue, then the support team should be able to provide more personalized assistance.",
+    "fullResponseTime": 12633,
+    "firstResponseTime": 6494,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "58.19%",
+    "memoryUsageRSS": "0.51%"
+  },
+  {
+    "user": "User 25",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual online identity that provides easy and secure access to Sarawak Government digital services. It is a single-sign-on identity for individuals to access various government services online. There are two versions of SarawakID: one for individual use and another, SarawakID Corp, for corporations. To register for SarawakID, you can click the SarawakID Register button on any Sarawak Government website and follow the step-by-step process. If you prefer registering in person, you can visit a Service Sarawak Kiosk or Counter with your MyKad or passport. Once registered, you must verify your account through Service Sarawak Counter, Kiosk, or via eKYC Online or eKYC Sarawak Gov Mobile App.",
+    "fullResponseTime": 13281,
+    "firstResponseTime": 7172,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "54.55%",
+    "memoryUsageRSS": "0.51%"
+  },
+  {
+    "user": "User 25",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is a comprehensive resource provided by the Sarawak Government that allows users to access all online Sarawak government services and information. It serves as a centralized platform where you can find various government online services, conveniently sorted by topic. To access these services, you need to register for a Sarawak ID account.",
+    "fullResponseTime": 11032,
+    "firstResponseTime": 6021,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "55.88%",
+    "memoryUsageRSS": "0.53%"
+  },
+  {
+    "user": "User 25",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "I'm sorry, but the context provided does not include information about the fee for upgrading the registration class in the electrical field. You may need to check the official Sarawak Government website or contact their customer service for specific details regarding fees and procedures related to the electrical field.",
+    "fullResponseTime": 11105,
+    "firstResponseTime": 6063,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "70.36%",
+    "memoryUsageRSS": "0.55%"
+  }
+]

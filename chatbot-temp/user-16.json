@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 16",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Based on the information provided: Gas Bill: I can assist you with the gas bill for Sarawak Gas Distribution Sdn. Bhd. (SGAS) using the account number '056-G2299', as this is confirmed to be valid. Electricity Bill: The account number '201166495100' for Sarawak Energy Berhad (SEB or SESCO) isn't validated in the information I have. Could you please double-check this account number or provide any additional details? If you have further information or another account number, please let me know!",
+    "fullResponseTime": 17885,
+    "firstResponseTime": 6409,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "87.68%",
+    "memoryUsageRSS": "0.55%"
+  },
+  {
+    "user": "User 16",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "Certainly! Based on the provided context: Case Number: 20240325-0006 Assigned Agency: Talikhidmat Your Talikhidmat case with the number 20240325-0006 is assigned to the Talikhidmat agency, and the status is currently In Progress.",
+    "fullResponseTime": 18713,
+    "firstResponseTime": 8541,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "65.16%",
+    "memoryUsageRSS": "0.56%"
+  },
+  {
+    "user": "User 16",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request regarding the enrollment process for the Senior Citizen Health Benefit is currently underway. We are working to provide you with the necessary eligibility details soon. Thank you for your patience.",
+    "fullResponseTime": 36173,
+    "firstResponseTime": 6151,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.54%",
+    "memoryUsageRSS": "0.55%"
+  },
+  {
+    "user": "User 16",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "The difference between SarawakID and SarawakID Corp lies in their functions and purposes: SarawakID: This is a digital identity system designed for residents of Sarawak to access various government services online. It serves as a single sign-on platform, allowing users to manage their personal information and access services conveniently. SarawakID Corp: This refers to the corporate entity responsible for managing and overseeing the SarawakID system. It handles the development, maintenance, and enhancement of the digital identity platform, ensuring it meets user needs and complies with relevant regulations. If you have any additional questions or need further clarification, feel free to ask!",
+    "fullResponseTime": 18135,
+    "firstResponseTime": 5890,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "61.51%",
+    "memoryUsageRSS": "0.55%"
+  },
+  {
+    "user": "User 16",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If your SarawakID registration is indicating that your IC has been registered before, it may mean that there is an existing account associated with your IC number. Here’s what you can do: Contact Support: Reach out to the SarawakID support team for assistance. They can help resolve issues related to duplicate registrations or provide guidance on how to proceed. Visit a Service Sarawak Kiosk or Counter: You can go in person to a Service Sarawak Kiosk or Counter with your MyKad to verify your identity and get assistance with the registration issue. Check for Existing Account: If you have previously registered, try to recover your existing account by using the password recovery options or contacting support for help with accessing your account. These steps should help you resolve the issue with the registration of your SarawakID.",
+    "fullResponseTime": 13148,
+    "firstResponseTime": 6068,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "61.18%",
+    "memoryUsageRSS": "0.56%"
+  }
+]

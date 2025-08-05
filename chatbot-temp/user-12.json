@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 12",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "The request to review the eligibility for enrolling in the Senior Citizen Health Benefit is currently underway. We will update you on the progress as soon as possible. Thank you for your patience.",
+    "fullResponseTime": 36686,
+    "firstResponseTime": 6631,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "75.24%",
+    "memoryUsageRSS": "0.47%"
+  },
+  {
+    "user": "User 12",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "It seems I can assist you with the gas bill for Sarawak Gas Distribution Sdn. Bhd. (SGAS) with the account number 056-G2299, as this is a valid account number according to the information I have. However, I'm unable to confirm the validity of the electricity bill account number 201166495100 for Sarawak Energy Berhad (SEB or SESCO) based on the context given. Could you please double-check the electricity bill account number? If you have any additional information or a sample bill, that would be beneficial to help verify the details. You can view a sample electricity bill here for reference. Let me know how you'd like to proceed!",
+    "fullResponseTime": 24542,
+    "firstResponseTime": 12195,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "54.37%",
+    "memoryUsageRSS": "0.66%"
+  },
+  {
+    "user": "User 12",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "Based on the context provided, it seems like your question about upgrading the registration class in the electrical field does not relate directly to utility bills or assessment bills, such as those for Sarawak Gas Distribution or Sarawak Energy Berhad. However, if you're looking for information regarding a specific agency or organization that handles electrical registrations, I would need more details to assist you accurately. Since fees for upgrading registration class can vary depending on the country, region, or specific agency involved, could you please specify which agency or region you are referring to? This will help in providing more precise information regarding the fee structure. If you have any specific agency or organization in mind, please let me know, and I'll do my best to help you with the relevant details.",
+    "fullResponseTime": 21335,
+    "firstResponseTime": 6054,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "50.12%",
+    "memoryUsageRSS": "0.66%"
+  },
+  {
+    "user": "User 12",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is an online platform provided by the Sarawak Government that serves as a centralized resource for accessing all Sarawak government services and information online. It offers a convenient way to find and use various government services, which are organized by topic. To access these services, you need to register for a Sarawak ID account.",
+    "fullResponseTime": 11143,
+    "firstResponseTime": 6133,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "44.24%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 12",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It provides easy and secure access to various online government services. There are two versions: SarawakID for individual use and SarawakID Corp for corporations. To register, you can click the SarawakID Register button on any Sarawak Government website and follow the step-by-step process. You can verify your SarawakID account at a Service Sarawak Counter, Kiosk, or via eKYC Online or the eKYC Sarawak Gov Mobile App.",
+    "fullResponseTime": 12310,
+    "firstResponseTime": 6039,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "80.04%",
+    "memoryUsageRSS": "0.66%"
+  }
+]

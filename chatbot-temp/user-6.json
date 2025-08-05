@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 6",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "The main difference between SarawakID and SarawakID Corp is their intended use and the registration process. SarawakID: This is typically an individual account that allows users to access various online services provided by the Sarawak government. It requires verification of personal information. SarawakID Corp: This is a corporate account designed for businesses or organizations. It requires a verified SarawakID account to register, and involves additional steps to provide corporate information such as corporate type, registration number, owner's details, and verification of corporate documents like the Corporate Registration Certificate and Letter of Consent. The SarawakID Corp account is specifically for corporate entities to access services relevant to businesses, and it includes more detailed verification steps compared to the individual SarawakID account.",
+    "fullResponseTime": 12446,
+    "firstResponseTime": 6188,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "72.96%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 6",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It provides a convenient and secure way for individuals to access various online services offered by the Sarawak government.",
+    "fullResponseTime": 11887,
+    "firstResponseTime": 6822,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "90.47%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 6",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is a one-stop resource provided by the Sarawak Government that allows you to access all online Sarawak government services and information. It serves as a centralized platform where users can find various government online services sorted by topic. To access these services, users need to register for a Sarawak ID account.",
+    "fullResponseTime": 11164,
+    "firstResponseTime": 6124,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "58.44%",
+    "memoryUsageRSS": "0.64%"
+  },
+  {
+    "user": "User 6",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you are unable to register your SarawakID because your IC (identity card) has been registered before, it is likely that there is an existing account associated with your IC number. Here are a few steps you can take to resolve this issue: Check for Existing Account: Try to recall if you have previously registered for a SarawakID. If you have, attempt to recover the account by using the \"Forgot Password\" option or contacting the SarawakID support for assistance. Contact Support: Reach out to SarawakID support or visit a Service Sarawak Kiosk or Counter for further assistance. They should be able to help you check the registration status or troubleshoot the issue. Verify Identity: You may need to verify your identity at a Service Sarawak Counter or through other verification methods provided by SarawakID to resolve any registration conflicts. If none of these options work, the support team will be able to provide you with more specific guidance based on your situation.",
+    "fullResponseTime": 13164,
+    "firstResponseTime": 6048,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "53.92%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 6",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "The request regarding the fee for upgrading the registration class in the electrical field is currently being processed. Please hold on while we gather the necessary information.",
+    "fullResponseTime": 35786,
+    "firstResponseTime": 5741,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.87%",
+    "memoryUsageRSS": "0.47%"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 18",
+    "message": "What is a SEG Portal?",
+    "response": "The SEG Portal is a comprehensive resource provided by the Sarawak Government that enables access to all online Sarawak government services and information. It serves as a centralized platform where users can find various online services, conveniently organized by topic. To utilize these services, users need to register for a Sarawak ID account.",
+    "fullResponseTime": 12793,
+    "firstResponseTime": 9822,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "59.60%",
+    "memoryUsageRSS": "0.55%"
+  },
+  {
+    "user": "User 18",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request is currently underway. Our team is reviewing the eligibility criteria for the Senior Citizen Health Benefit and will provide you with the necessary information soon. Thank you for your patience.",
+    "fullResponseTime": 36388,
+    "firstResponseTime": 6341,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "63.45%",
+    "memoryUsageRSS": "0.50%"
+  },
+  {
+    "user": "User 18",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is an individual's single-sign-on identity that allows secure access to Sarawak Government digital services. It is your online identity for accessing various government services online. There are two versions: SarawakID for individual use and SarawakID Corp (SID Corp) for corporations. You can register for SarawakID through the Sarawak Government website or in person at a Service Sarawak Kiosk or Counter. Once registered, you can verify your account at a Service Sarawak Counter, Kiosk, or via eKYC online or through the eKYC Sarawak Gov Mobile App.",
+    "fullResponseTime": 12112,
+    "firstResponseTime": 6079,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "57.84%",
+    "memoryUsageRSS": "0.53%"
+  },
+  {
+    "user": "User 18",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Sure! Here are the details for your bills: Gas Bill with Sarawak Gas Distribution Sdn. Bhd. (SGAS): Account Number: 056-G2299 Bill Date: 02-07-2025 Total Amount Due: RM 22.40 Electricity Bill (SEB): Account Number: 201166495100 You can proceed with the payment for both your gas and electricity bills through this link. If you need any further assistance, feel free to ask!",
+    "fullResponseTime": 32714,
+    "firstResponseTime": 6121,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "63.40%",
+    "memoryUsageRSS": "0.48%"
+  },
+  {
+    "user": "User 18",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "Sure! Based on the provided context, your Talikhidmat case with the number 20240325-0006 is currently assigned to the Talikhidmat agency and the status is In Progress.",
+    "fullResponseTime": 15102,
+    "firstResponseTime": 5919,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "51.00%",
+    "memoryUsageRSS": "0.58%"
+  }
+]

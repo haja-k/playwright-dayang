@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 23",
+    "message": "What is a SEG Portal?",
+    "response": "A SEG Portal is a resource provided by the Sarawak Government that allows users to access all online Sarawak government services and information in one place. To use these online services, you need to register for a Sarawak ID account. The portal provides a convenient way to find and utilize government services sorted by topic.",
+    "fullResponseTime": 11561,
+    "firstResponseTime": 8539,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "62.85%",
+    "memoryUsageRSS": "0.62%"
+  },
+  {
+    "user": "User 23",
+    "message": "What is SarawakID?",
+    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It provides an easy and secure way to use online government services and is available in two versions: SarawakID for individual use and SarawakID Corp for corporations.",
+    "fullResponseTime": 11198,
+    "firstResponseTime": 6126,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "62.97%",
+    "memoryUsageRSS": "0.66%"
+  },
+  {
+    "user": "User 23",
+    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
+    "response": "Sure, here are the details for your bills: Gas Bill: Provider: Sarawak Gas Distribution Sdn. Bhd. (SGAS) Account Number: 056-G2299 Bill Date: 02-07-2025 Total Amount Due: RM 22.40 Unfortunately, I don't have the details for the SEB bill with account number 201166495100. You might want to check directly on the payment portal or contact the service provider for more information. You can proceed with the payment for your bills through this link. If you need any further assistance, feel free to ask!",
+    "fullResponseTime": 21317,
+    "firstResponseTime": 7050,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "54.50%",
+    "memoryUsageRSS": "0.66%"
+  },
+  {
+    "user": "User 23",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you are unable to register your SarawakID because it says that your IC (Identity Card) has already been registered, it is possible that you or someone else has previously registered your IC. Here are a few steps you can take: Double-Check: Ensure that you have entered your IC number correctly. A simple typo could result in this message. Recover Account: If you might have previously registered and forgot, try recovering your account using any associated email or phone number. Contact Support: Reach out to the SarawakID support team for assistance. They can help you determine if there is already an account associated with your IC and guide you on how to proceed. Visit in Person: Go to a Service Sarawak Kiosk or Counter for in-person assistance. Bring your MyKad or passport for verification. Verify Your Identity: If the account is not verified, you might need to verify it through the appropriate channels, such as the Service Sarawak Counter, Kiosk, or through eKYC online. Taking these steps should help you resolve the issue with your SarawakID registration.",
+    "fullResponseTime": 14502,
+    "firstResponseTime": 6389,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "55.08%",
+    "memoryUsageRSS": "0.65%"
+  },
+  {
+    "user": "User 23",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "The request regarding the fee for upgrading the registration class in the electrical field is currently underway. We will provide you with the necessary information as soon as possible. Thank you for your patience.",
+    "fullResponseTime": 36449,
+    "firstResponseTime": 6408,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "55.87%",
+    "memoryUsageRSS": "0.49%"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "user": "User 19",
+    "message": "What is the difference between SarawakID and SarawakID Corp?",
+    "response": "SarawakID is an individual account used for accessing services provided by the Sarawak government online. It serves as a personal identity for individuals using these services. SarawakID Corp, on the other hand, is a corporate account designed for companies or organizations to access and manage services specific to corporate entities. To register a SarawakID Corp account, you must first have a verified SarawakID individual account. The registration process involves providing corporate information, uploading necessary documents, and verifying the corporate email address. In summary, SarawakID is for individual use, while SarawakID Corp is for corporate or organizational use, with different registration and login processes.",
+    "fullResponseTime": 11617,
+    "firstResponseTime": 6439,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "62.41%",
+    "memoryUsageRSS": "0.57%"
+  },
+  {
+    "user": "User 19",
+    "message": "How much is the fee for upgrading the registration class in the electrical field?",
+    "response": "I'm sorry, but the provided context does not include information about the fee for upgrading the registration class in the electrical field. You might want to check the official Sarawak government website or contact their support for detailed information regarding fees and processes related to registration class upgrades in the electrical field.",
+    "fullResponseTime": 11175,
+    "firstResponseTime": 6159,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "52.54%",
+    "memoryUsageRSS": "0.58%"
+  },
+  {
+    "user": "User 19",
+    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
+    "response": "Based on the context provided, your Talikhidmat case with the number 20240325-0006 is currently assigned to the agency \"Talikhidmat.\" The status of the case is \"In Progress.\" If you have further questions or require updates, you may need to contact Talikhidmat directly for more information.",
+    "fullResponseTime": 22775,
+    "firstResponseTime": 6440,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "60.43%",
+    "memoryUsageRSS": "0.54%"
+  },
+  {
+    "user": "User 19",
+    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
+    "response": "If you are facing an issue where your IC number is already registered for SarawakID, you should consider visiting a Service Sarawak Kiosk or Counter in person. Bring your MyKad with you, and the staff there should be able to assist you in resolving the issue. Alternatively, you may want to contact SarawakID support for further assistance on the registration problem.",
+    "fullResponseTime": 11168,
+    "firstResponseTime": 6102,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "61.22%",
+    "memoryUsageRSS": "0.56%"
+  },
+  {
+    "user": "User 19",
+    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
+    "response": "Your request is currently underway. We are working on gathering the information regarding the eligibility for the Senior Citizen Health Benefit enrollment. Thank you for your patience.",
+    "fullResponseTime": 35912,
+    "firstResponseTime": 5873,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "55.84%",
+    "memoryUsageRSS": "0.55%"
+  }
+]
