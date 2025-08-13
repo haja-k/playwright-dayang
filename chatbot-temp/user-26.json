@@ -2,11 +2,11 @@
   {
     "user": "User 26",
     "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.50%"
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan for social inclusivity strategies. Key constraints include limited information on the plan's specifics. Assuming the plan is publicly available, I will outline its initiatives. I’ve performed an information search and found the following: The PCDS 2030 plan aims to achieve social inclusivity for all Sarawakians by implementing various strategies and initiatives. Some of the specific initiatives outlined in the plan include: Bantuan Khas Sarawakku Sayang (BKSS) packages: The Sarawak Government has implemented nine BKSS packages, totaling RM6.7 billion, to alleviate the financial burden of the people and business community during the COVID-19 pandemic. These packages include cash assistance, discounts on utility bills, fee waivers, and deferment of payment for land premiums and loan schemes. Endowment Fund Sarawak (EFS): The EFS provides a grant of RM1,000 in the form of savings for every Sarawakian baby born starting from 2019, to assist with higher education, starting a career, or as seed capital for small businesses. Special Annual Grant for Early Childhood Education Institutions: The Special Annual Grant (GTK",
+    "fullResponseTime": 35199,
+    "firstResponseTime": 5136,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "56.78%",
+    "memoryUsageRSS": "0.51%"
   }
 ]

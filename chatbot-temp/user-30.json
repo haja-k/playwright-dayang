@@ -2,11 +2,11 @@
   {
     "user": "User 30",
     "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.50%"
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan for social inclusivity details. Key constraints include limited information on Sarawakian demographics. Missing info on specific PCDS 2030 initiatives for social inclusivity. I’ve performed an information search and found the following: The PCDS 2030 plan aims to achieve social inclusivity for all Sarawakians by promoting equal opportunities, access to quality education and healthcare, and social protection for vulnerable groups. Some specific strategies outlined to support this goal include: Education and Human Capital Development: The plan emphasizes the importance of education in achieving social inclusivity. Initiatives such as the repair of dilapidated schools and the provision of access to quality education for all Sarawakians are outlined. Social Protection: The plan includes initiatives such as the Bantuan Khas Sarawakku Sayang (BKSS) packages, which provide financial assistance to vulnerable groups, including B40 families, frontliners, and small entrepreneurs. Housing and Urban Development: The plan aims to provide affordable housing for all Sarawakians, particularly the B40 and M40 groups, through initiatives such as the Rumah Spektra Permata (RSP) scheme and the Housing Deposit and Repayment Assistance Scheme (HDRAS). Community Development: The plan outlines initiatives to promote community development, including the establishment of Community Social Intervention Centers (CSICs) and the provision of support for rural communities. Healthcare: The plan aims to improve access to quality healthcare for all Sarawakians, particularly in rural areas, through initiatives such as the expansion of healthcare facilities and the provision of medical assistance to vulnerable groups.",
+    "fullResponseTime": 36238,
+    "firstResponseTime": 6198,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "50.98%",
+    "memoryUsageRSS": "0.51%"
   }
 ]

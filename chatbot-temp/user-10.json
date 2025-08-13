@@ -2,11 +2,11 @@
   {
     "user": "User 10",
     "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.50%"
+    "response": "Thinking… (click to collapse) I will analyze the PCDS 2030 plan for social inclusivity strategies. Key constraints include limited information on the plan's specifics. Missing info on Sarawakians' current social status and needs is assumed.",
+    "fullResponseTime": 36384,
+    "firstResponseTime": 6341,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "53.04%",
+    "memoryUsageRSS": "0.51%"
   }
 ]

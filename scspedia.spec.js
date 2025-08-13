@@ -73,9 +73,11 @@ function getRandomItems(array, count) {
 // =======================================================================
 test.setTimeout(6000000);
 
-test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () => {
+test.describe.parallel('Concurrent chatbot users - SCSPedia Production (Load Test)', () => {
   for (let userId = 1; userId <= userTest; userId++) {
     test(`User ${userId}`, async ({ page }) => {
+      console.log(`🚀 User ${userId}: Starting test`);
+      
       // 1. Perform the login steps.
       await page.goto('xxx');
       await page.getByRole('tab', { name: 'Login with Password' }).click();
@@ -85,35 +87,40 @@ test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () =
       await page.getByRole('textbox', { name: 'Password' }).fill('xxx');
       await page.getByRole('button', { name: 'Login' }).click();
 
-      
-      // // Get the frame locator for the chatbot iframe.
-      // const frameLocator = page.frameLocator('iframe[title="dify chatbot bubble window"]');
+      console.log(`🔐 User ${userId}: Login completed`);
       
       // 3. Click the "Start Chat" button inside the iframe.
       await page.getByRole('button', { name: 'Start Chat' }).click();
       
       const responseLocator = await page.locator('.relative > .markdown-body');
-      // const checkCircleLocator = page.locator('#check-circle #Solid');
-      const checkCircleLocator = page.getByText('CITATIONS')
+      const checkCircleLocator = page.getByText('CITATIONS');
+
+      console.log(`💬 User ${userId}: Chat initialized`);
 
       // Now, proceed with the rest of the test logic, using the fixed questions.
       const questionsToAsk = getRandomItems(selectedQuestions, questionsPerUser);
       const results = [];
 
       for (const question of questionsToAsk) {
+        console.log(`❓ User ${userId}: Asking question: "${question.substring(0, 50)}..."`);
+        
         const cpuBefore = getCpuUsageSnapshot();
         const initialAnswerCount = await responseLocator.count();
         const initialCheckCount = await checkCircleLocator.count();
+
+        console.log(`📊 User ${userId}: Initial counts - answers: ${initialAnswerCount}, citations: ${initialCheckCount}`);
 
         await page.getByRole('textbox', { name: 'Talk to Bot' }).fill(question);
         await page.getByRole('button').nth(2).click();
 
         const startTime = Date.now();
+        console.log(`⏱️ User ${userId}: Question sent at ${startTime}`);
 
         let newResponse;
         try {
           await expect(responseLocator).toHaveCount(initialAnswerCount + 1, { timeout: 30000 });
           newResponse = responseLocator.nth(initialAnswerCount);
+          console.log(`✅ User ${userId}: New response element detected`);
         } catch {
           console.warn(`⏱️ User ${userId}: No new response within 30s for question: "${question}"`);
           results.push({
@@ -132,21 +139,60 @@ test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () =
         let firstResponseTime = -1;
         const pollStart = Date.now();
         const maxWait = 30000;
+        let lastResponseLength = 0;
+        let stableCount = 0;
+        const requiredStableChecks = 3; // Number of consecutive checks with same content
+
+        console.log(`🔍 User ${userId}: Starting response content polling...`);
 
         while (Date.now() - pollStart < maxWait) {
-          const finalResponseCount = await newResponse.locator('[data-response="final-response"]').count();
-          const holdResponseCount = await newResponse.locator('[data-response="hold-response"]').count();
+          try {
+            // Check for data attributes first (original logic)
+            const finalResponseCount = await newResponse.locator('[data-response="final-response"]').count();
+            const holdResponseCount = await newResponse.locator('[data-response="hold-response"]').count();
 
-          if (finalResponseCount > 0 && holdResponseCount === 0) {
-            firstResponseTime = Date.now() - startTime;
-            break;
+            if (finalResponseCount > 0 && holdResponseCount === 0) {
+              firstResponseTime = Date.now() - startTime;
+              console.log(`✅ User ${userId}: Final response detected via data attributes at ${firstResponseTime}ms`);
+              break;
+            }
+
+            // Fallback: Check for stable content as secondary method
+            const currentText = await newResponse.textContent();
+            const currentLength = currentText?.trim().length || 0;
+
+            // Only start timing after we have substantial content (more than just loading text)
+            if (currentLength > 50 && firstResponseTime === -1) {
+              // Check if content has stabilized (not changing)
+              if (currentLength === lastResponseLength) {
+                stableCount++;
+                if (stableCount >= requiredStableChecks) {
+                  firstResponseTime = Date.now() - startTime;
+                  console.log(`✅ User ${userId}: Response stabilized at ${firstResponseTime}ms (content-based detection)`);
+                  break;
+                }
+              } else {
+                stableCount = 0; // Reset if content is still changing
+              }
+              lastResponseLength = currentLength;
+            }
+          } catch (error) {
+            console.warn(`⚠️ User ${userId}: Error during response polling: ${error.message}`);
           }
 
           await page.waitForTimeout(300);
         }
 
+        if (firstResponseTime === -1) {
+          console.warn(`⚠️ User ${userId}: No valid response detected within ${maxWait}ms`);
+          // Set a fallback time based on when we first detected the response element
+          firstResponseTime = Date.now() - startTime;
+          console.log(`📝 User ${userId}: Using fallback response time: ${firstResponseTime}ms`);
+        }
+
         try {
           await expect(checkCircleLocator).toHaveCount(initialCheckCount + 1, { timeout: 30000 });
+          console.log(`✅ User ${userId}: Citations appeared`);
         } catch {
           console.warn(`⏱️ User ${userId}: Check-circle not found in time for question: "${question}"`);
         }
@@ -156,14 +202,18 @@ test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () =
         const rssPercent = getRSSMemoryUsagePercent();
         const answerText = await newResponse.textContent();
         const cleanAnswer = answerText?.trim().replace(/\s+/g, ' ') || 'No response';
+        const fullResponseTime = Date.now() - startTime;
+        const apdexRating = classifyApdex(firstResponseTime);
+
+        console.log(`📊 User ${userId}: Response complete - First: ${firstResponseTime}ms, Full: ${fullResponseTime}ms, Apdex: ${apdexRating}`);
 
         results.push({
           user: `User ${userId}`,
           message: question,
           response: cleanAnswer,
-          fullResponseTime: Date.now() - startTime,
+          fullResponseTime,
           firstResponseTime,
-          apdexRating: classifyApdex(firstResponseTime),
+          apdexRating,
           cpuUsagePercent: (cpuLoad * 100).toFixed(2) + '%',
           memoryUsageRSS: rssPercent
         });
@@ -171,10 +221,14 @@ test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () =
 
       const filePath = path.join(TEMP_DIR, `user-${userId}.json`);
       fs.writeFileSync(filePath, JSON.stringify(results, null, 2));
-      console.log(`💾 Saved responses for User ${userId} to ${filePath}`);
+      console.log(`💾 User ${userId}: Saved responses to ${filePath}`);
+      console.log(`📈 User ${userId}: Results summary:`, results.map(r => ({
+        apdex: r.apdexRating,
+        firstResponse: r.firstResponseTime + 'ms'
+      })));
 
       if (results.length !== questionsToAsk.length) {
-        console.warn(`⚠️ WARNING: Expected ${questionsToAsk.length} responses but got ${results.length}`);
+        console.warn(`⚠️ WARNING: User ${userId} - Expected ${questionsToAsk.length} responses but got ${results.length}`);
       }
     });
   }

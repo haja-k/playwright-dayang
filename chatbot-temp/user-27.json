@@ -2,11 +2,11 @@
   {
     "user": "User 27",
     "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.50%"
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan's social inclusivity goals. Key constraints include limited information on the plan's specifics. Assuming the plan outlines strategies for supporting all Sarawakians. I’ve performed an information search and found the following: The PCDS 2030 plan aims to achieve social inclusivity for all Sarawakians by increasing median monthly household income from RM4,500 in 2019 to RM15,000 by 2030, driven by higher job and entrepreneurial opportunities. To support this goal, several strategies and initiatives are outlined: Education and Human Capital Development: The plan emphasizes the importance of education and human capital development in achieving social inclusivity. Initiatives such as the repair of dilapidated schools and the development of technical and vocational education programs are aimed at improving access to quality education and enhancing the skills of the workforce. Poverty Reduction: The plan aims to reduce poverty and improve the well-being of vulnerable groups, including the elderly, persons with disabilities, and low-income households. Initiatives such as the Endowment Fund Sarawak, Special Annual Grant for Early Childhood Education Institutions, and Bantuan Pesakit Buah Pinggang are designed to provide financial assistance and support to these groups. Housing and Urban Development: The plan recognizes the importance of affordable housing in achieving social inclusivity. Initiatives such as the Housing Deposit Assistance Scheme and the Sarawak Rental Assistance Scheme are aimed at providing affordable housing options and reducing the financial burden of housing costs on low- and middle-income households. Community Development: The plan emphasizes the importance of community development in achieving social inclusivity. Initiatives such as the Community Social Intervention Centers and the Integrated Sarawak Social Intervention and Community Support programs are aimed at providing support and services to vulnerable groups and promoting community well-being. Digital Inclusion: The plan recognizes the importance of digital inclusion in achieving social inclusivity. Initiatives such as the Sarawak Digital Economy Corporation and the Sarawak Multimedia Authority are aimed at improving access to digital technologies and promoting digital literacy among all Sarawakians. Overall, the PCDS 2030 plan outlines a comprehensive approach to achieving social inclusivity for all Sarawakians, with a focus on education, poverty reduction, housing, community development, and digital inclusion. By implementing these strategies and initiatives, the plan aims to promote equitable economic growth, improve the well-being of vulnerable groups, and enhance the overall quality of life for all Sarawakians.",
+    "fullResponseTime": 35486,
+    "firstResponseTime": 5202,
+    "apdexRating": "Satisfactory",
+    "cpuUsagePercent": "52.88%",
+    "memoryUsageRSS": "0.51%"
   }
 ]
