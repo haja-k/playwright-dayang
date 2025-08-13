@@ -1,52 +1,12 @@
 [
   {
     "user": "User 27",
-    "message": "What is a SEG Portal?",
-    "response": "A SEG Portal is a resource provided by the Sarawak Government that allows you to access all online Sarawak government services and information in one place. It includes various online services sorted by topic, and to access these services, you need to register for a Sarawak ID account.",
-    "fullResponseTime": 11384,
-    "firstResponseTime": 6262,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "78.88%",
-    "memoryUsageRSS": "0.65%"
-  },
-  {
-    "user": "User 27",
-    "message": "What is SarawakID?",
-    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It serves as your online identity, providing easy and secure access to these services. There are two versions of SarawakID: one for individual use and another, SarawakID Corp (SID Corp), for corporations.",
-    "fullResponseTime": 12262,
-    "firstResponseTime": 6229,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "61.45%",
-    "memoryUsageRSS": "0.64%"
-  },
-  {
-    "user": "User 27",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "If you are unable to register your SarawakID because your IC has been registered before, you should contact the SarawakID support or visit a Service Sarawak Counter or Kiosk for assistance. They should be able to help you resolve the issue, whether it's about updating your registration or verifying your identity.",
-    "fullResponseTime": 12250,
-    "firstResponseTime": 6189,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "62.66%",
-    "memoryUsageRSS": "0.64%"
-  },
-  {
-    "user": "User 27",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "SarawakID is an individual's single sign-on identity that allows secure access to Sarawak Government digital services. It is used for personal use, providing individuals with access to various online government services. SarawakID Corp, on the other hand, is designed for corporations or businesses. It allows a corporate entity to access government services that are relevant to businesses. The process to register for SarawakID Corp involves additional steps such as providing corporate information, verifying corporate registration, and fulfilling specific requirements for corporate accounts, as outlined in the context. In summary, the main difference lies in the type of account holder: SarawakID is for individuals, while SarawakID Corp is for corporate entities.",
-    "fullResponseTime": 12018,
-    "firstResponseTime": 5867,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "65.50%",
-    "memoryUsageRSS": "0.64%"
-  },
-  {
-    "user": "User 27",
-    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
-    "response": "Based on the information provided, your Talikhidmat case with the case number 20240325-0006 is currently assigned to the Talikhidmat agency itself. The status of your case is marked as \"In Progress.\"",
-    "fullResponseTime": 17017,
-    "firstResponseTime": 6890,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "60.50%",
-    "memoryUsageRSS": "0.64%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Timeout: No response received",
+    "fullResponseTime": 30000,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "N/A",
+    "memoryUsageRSS": "0.50%"
   }
 ]

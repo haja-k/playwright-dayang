@@ -1,10 +1,8 @@
-// @ts-check
+// scspedia.spec.ts
 import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as os from 'os';
-// NOTE: xlsx library is required for this script. Make sure it's installed.
-// import * as xlsx from 'xlsx';
 
 // Temporary directory to save results
 const TEMP_DIR = path.join(__dirname, 'chatbot-temp');
@@ -13,53 +11,23 @@ if (!fs.existsSync(TEMP_DIR)) {
 }
 
 // =======================================================================
-//                           CONFIGURATION
+//                       CONFIGURATION
 // =======================================================================
 const userTest = 30; // Number of concurrent users
-const questionsPerUser = 5; // Number of questions to send per user
-const firstIndexQuestion = 0;
-const secondIndexQuestion = 33;
-
-// Flag to use fixed questions or random from the source.
-// If using random, make sure 'questions.xlsx' exists.
-const useRandomQuestions = true;
-
-// Pre-defined questions for a fixed-set test if not using random.
+const questionsPerUser = 1; // Number of questions to send per user
 const fixedQuestions = [
-  "What kind of information do you have?",
-  "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?"
+  // "What kind of information do you have?",
+  "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+  // "What is the summary of PCDS 2030 plan?"
 ];
 
-let selectedQuestions = [];
-
-if (useRandomQuestions) {
-  // NOTE: This part requires the xlsx library to be installed and 'questions.xlsx' to exist.
-  try {
-    // const workbook = xlsx.readFile('questions.xlsx');
-    // const sheet = workbook.Sheets[workbook.SheetNames[0]];
-    // const jsonData = xlsx.utils.sheet_to_json(sheet);
-    // const allQuestions = jsonData
-    //   .map(row => row['Test Script'])
-    //   .filter(msg => typeof msg === 'string' && msg.trim().length > 0);
-    // selectedQuestions = allQuestions.slice(firstIndexQuestion, secondIndexQuestion);
-    
-    // Using a placeholder for now to avoid the xlsx dependency issue in this example.
-    // In a real scenario, uncomment the above block and remove this line.
-    selectedQuestions = fixedQuestions; 
-
-  } catch (error) {
-    console.error("Failed to load questions from Excel. Using fixed questions instead.");
-    selectedQuestions = fixedQuestions;
-  }
-} else {
-  selectedQuestions = fixedQuestions;
-}
+let selectedQuestions = fixedQuestions;
 
 console.log(`✅ Loaded ${selectedQuestions.length} messages from source.`);
 console.log(`✅ Simulating ${userTest} users, each sending ${questionsPerUser} random messages.`);
 
 // =======================================================================
-//                        PERFORMANCE UTILITY FUNCTIONS
+//                       PERFORMANCE UTILITY FUNCTIONS
 // =======================================================================
 function getCpuUsageSnapshot() {
   const cpus = os.cpus();
@@ -101,28 +69,34 @@ function getRandomItems(array, count) {
 }
 
 // =======================================================================
-//                              PLAYWRIGHT TEST
+//                       PLAYWRIGHT TEST
 // =======================================================================
-test.setTimeout(6000000); // Set a very long timeout for the entire test run
+test.setTimeout(6000000);
 
-test.describe.parallel('Concurrent chatbot users - SCSPedia Production (Load Test)', () => {
+test.describe.parallel('Concurrent chatbot users - Production (Load Test)', () => {
   for (let userId = 1; userId <= userTest; userId++) {
     test(`User ${userId}`, async ({ page }) => {
-      // Navigate and open the chatbot
-      await page.goto('https://scspedia.tnt.sarawak.gov.my/chat_internal/');
-      await page.getByRole('img').click();
+      // 1. Perform the login steps.
+      await page.goto('xxx');
+      await page.getByRole('tab', { name: 'Login with Password' }).click();
+      await page.getByRole('textbox', { name: 'Username' }).click();
+      await page.locator('#usrid').fill('xxx');
+      await page.getByRole('textbox', { name: 'Password' }).click();
+      await page.getByRole('textbox', { name: 'Password' }).fill('xxx');
+      await page.getByRole('button', { name: 'Login' }).click();
 
-      const frameLocator = page.frameLocator('iframe[title="dify chatbot bubble window"]');
-      const responseLocator = frameLocator.locator('.chat-answer-container .markdown-body');
-      const checkCircleLocator = frameLocator.locator('#check-circle');
+      
+      // // Get the frame locator for the chatbot iframe.
+      // const frameLocator = page.frameLocator('iframe[title="dify chatbot bubble window"]');
+      
+      // 3. Click the "Start Chat" button inside the iframe.
+      await page.getByRole('button', { name: 'Start Chat' }).click();
+      
+      const responseLocator = await page.locator('.relative > .markdown-body');
+      // const checkCircleLocator = page.locator('#check-circle #Solid');
+      const checkCircleLocator = page.getByText('CITATIONS')
 
-      // Wait for the initial greeting
-      try {
-        await expect(responseLocator).toHaveCount(1, { timeout: 30000 });
-      } catch {
-        console.warn(`⏱️ User ${userId}: Greeting not found within 30s. Proceeding...`);
-      }
-
+      // Now, proceed with the rest of the test logic, using the fixed questions.
       const questionsToAsk = getRandomItems(selectedQuestions, questionsPerUser);
       const results = [];
 
@@ -131,8 +105,8 @@ test.describe.parallel('Concurrent chatbot users - SCSPedia Production (Load Tes
         const initialAnswerCount = await responseLocator.count();
         const initialCheckCount = await checkCircleLocator.count();
 
-        await frameLocator.getByRole('textbox', { name: 'Talk to Bot' }).fill(question);
-        await frameLocator.getByRole('button').filter({ hasText: /^$/ }).click();
+        await page.getByRole('textbox', { name: 'Talk to Bot' }).fill(question);
+        await page.getByRole('button').nth(2).click();
 
         const startTime = Date.now();
 

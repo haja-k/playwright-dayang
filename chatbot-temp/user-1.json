@@ -1,52 +1,12 @@
 [
   {
     "user": "User 1",
-    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
-    "response": "The request to check the gas bill 056-G2299 and theDayang is thinking right now...",
-    "fullResponseTime": 63792,
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan for social inclusivity details. Key constraints include limited information on specific initiatives. Assuming PCDS 2030 plan is publicly available for review. I’ve performed an information search and found the following: The PCDS 2030 plan aims to achieve social inclusivity for all Sarawakians by increasing median monthly household income from RM4,500 in 2019 to RM15,000 by 2030, driven by higher job and entrepreneurial opportunities. To support this goal, several strategies and initiatives are outlined, including: Education and Human Capital Development: Initiatives such as the repair of dilapidated schools, the development of technical and vocational education, and the provision of training and upskilling programs to enhance the employability of Sarawakians. Poverty Reduction: Efforts to alleviate poverty, including the provision of financial assistance, skills training, and entrepreneurship programs to support low-income households. Social Protection: Initiatives such as the Endowment Fund Sarawak, Special Annual Grant for Early Childhood Education Institutions, Kenyalang Gold Card, Bantuan Pesakit Buah Pinggang, and Launching Grants for Entrepreneurs to provide support for vulnerable groups, including children, senior citizens, and individuals with disabilities. Housing and Urban Development: The development of affordable housing, such as Rumah Spektra Permata, and initiatives like the Housing Deposit Assistance Scheme and Sarawak Rental Assistance Scheme to support low- and middle-income households in accessing affordable housing. Community Development: Programs aimed at promoting community well-being, such as the Community Social Intervention Centers (CSIC) initiative, which provides counseling services and support for individuals in need. These strategies and initiatives are designed to promote social inclusivity by providing opportunities for education, employment, and entrepreneurship, as well as supporting vulnerable groups and promoting community well-being. By implementing these initiatives, the PCDS 2030 plan aims to create a more inclusive and equitable society, where all Sarawakians have access to opportunities and resources to improve their socio-economic well-being.",
+    "fullResponseTime": 34759,
     "firstResponseTime": -1,
     "apdexRating": "Unknown",
-    "cpuUsagePercent": "63.48%",
-    "memoryUsageRSS": "0.48%"
-  },
-  {
-    "user": "User 1",
-    "message": "What is a SEG Portal?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.49%"
-  },
-  {
-    "user": "User 1",
-    "message": "What is SarawakID?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.49%"
-  },
-  {
-    "user": "User 1",
-    "message": "How much is the fee for upgrading the registration class in the electrical field?",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.49%"
-  },
-  {
-    "user": "User 1",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "Timeout: No response received",
-    "fullResponseTime": 30000,
-    "firstResponseTime": -1,
-    "apdexRating": "Unknown",
-    "cpuUsagePercent": "N/A",
-    "memoryUsageRSS": "0.50%"
+    "cpuUsagePercent": "100.00%",
+    "memoryUsageRSS": "0.53%"
   }
 ]

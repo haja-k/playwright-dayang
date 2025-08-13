@@ -1,52 +1,12 @@
 [
   {
     "user": "User 24",
-    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
-    "response": "Thank you for reaching out. Your request regarding the eligibility for the Senior Citizen Health Benefit is currently underway, and we will update you with the necessary information shortly.",
-    "fullResponseTime": 36538,
-    "firstResponseTime": 6497,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "57.05%",
-    "memoryUsageRSS": "0.56%"
-  },
-  {
-    "user": "User 24",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "The difference between SarawakID and SarawakID Corp is primarily in their intended use and account type: SarawakID: This typically refers to the individual account used for accessing various digital services provided by the Sarawak government. It is a personal account that verifies an individual's identity to use these services. SarawakID Corp: This is a corporate account designed for businesses or organizations. It requires additional information related to the corporate entity, such as corporate type, registration number, and corporate profile information. The registration process involves providing corporate documents for verification, such as the Corporate Registration Certificate and Letter of Consent. In essence, SarawakID is for individuals, while SarawakID Corp is for corporate entities.",
-    "fullResponseTime": 12196,
-    "firstResponseTime": 6120,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "59.48%",
-    "memoryUsageRSS": "0.58%"
-  },
-  {
-    "user": "User 24",
-    "message": "What is a SEG Portal?",
-    "response": "A SEG Portal is a centralized online resource provided by the Sarawak Government that allows users to access all of their online services and information. It serves as a convenient platform where users can find and utilize various government services, neatly organized by topic. To use these services, users must register for a Sarawak ID account.",
-    "fullResponseTime": 11114,
-    "firstResponseTime": 6042,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "56.13%",
-    "memoryUsageRSS": "0.59%"
-  },
-  {
-    "user": "User 24",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "If you are facing an issue where your IC (Identity Card) has been registered before when trying to register for SarawakID, it might mean that a SarawakID account already exists under your identity. Here are some steps you can take to resolve the issue: Check for an Existing Account: Try to recall if you have previously registered for a SarawakID. If possible, search your email inbox for any registration confirmation or account details related to SarawakID. Password Recovery: If you suspect you have an account but cannot remember the login details, attempt to recover your password using the \"Forgot Password\" option on the SarawakID login page. Contact Support: If you cannot resolve the issue through the above methods, contact SarawakID support for assistance. They can help verify if an account exists under your identity and guide you on the next steps. Visit Service Sarawak Kiosk or Counter: As an alternative, you could visit a Service Sarawak Kiosk or Counter in person with your MyKad to seek help from a representative. These steps should help you address the registration issue effectively.",
-    "fullResponseTime": 12753,
-    "firstResponseTime": 6462,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "52.52%",
-    "memoryUsageRSS": "0.59%"
-  },
-  {
-    "user": "User 24",
-    "message": "How much is the fee for upgrading the registration class in the electrical field?",
-    "response": "I'm sorry, but the context provided does not include information about the fee for upgrading the registration class in the electrical field. You may want to contact the relevant authorities or organizations directly for detailed information regarding fees and procedures. Alternatively, you could try reaching out through Talikhidmat for assistance.",
-    "fullResponseTime": 11029,
-    "firstResponseTime": 5785,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "57.20%",
-    "memoryUsageRSS": "0.60%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan for social inclusivity details. Key constraints include limited information on the plan's specifics. Assuming the plan is publicly available and has outlined strategies.",
+    "fullResponseTime": 67755,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "100.00%",
+    "memoryUsageRSS": "0.66%"
   }
 ]

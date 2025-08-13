@@ -1,1 +1,1 @@
-npx playwright codegen https://scschat.tnt.sarawak.gov.my/chat/o1OkzPbJGRFElKjS --output=tests/experiment.spec.ts
+npx playwright codegen https://scspedia.tnt.sarawak.gov.my/chat/oDDWixigVYHSIDCW --output=tests/scspedia.spec.ts

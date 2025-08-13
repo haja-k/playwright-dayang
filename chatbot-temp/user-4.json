@@ -1,52 +1,12 @@
 [
   {
     "user": "User 4",
-    "message": "What is SarawakID?",
-    "response": "SarawakID is an online identity system that allows individuals and corporations to securely access Sarawak Government digital services. For individual users, SarawakID provides a single-sign-on identity to make accessing various government services more convenient. There is also a corporate version known as SarawakID Corp for businesses. To register, you can click the SarawakID Register button on any Sarawak Government website and follow the instructions. Verification of your SarawakID account can be done at a Service Sarawak Counter, Kiosk, or through online options like eKYC.",
-    "fullResponseTime": 13143,
-    "firstResponseTime": 10111,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "74.43%",
-    "memoryUsageRSS": "0.66%"
-  },
-  {
-    "user": "User 4",
-    "message": "What is a SEG Portal?",
-    "response": "A SEG Portal is a comprehensive online resource provided by the Sarawak Government that allows you to access all online Sarawak government services and information. It is designed to be a convenient central hub for finding and accessing various government services, which are organized by topic within the portal. To use these online services, you need to register for a SarawakID account.",
-    "fullResponseTime": 11780,
-    "firstResponseTime": 6759,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "68.76%",
-    "memoryUsageRSS": "0.66%"
-  },
-  {
-    "user": "User 4",
-    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
-    "response": "Thank you for your inquiry about the Senior Citizen Health Benefit eligibility. Your request is currently underway, and we will provide you with the required information shortly.",
-    "fullResponseTime": 36241,
-    "firstResponseTime": 6212,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "56.96%",
-    "memoryUsageRSS": "0.48%"
-  },
-  {
-    "user": "User 4",
-    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
-    "response": "Based on the provided context, your Talikhidmat case with the case number 20240325-0006 is assigned to the agency \"Talikhidmat.\" The case status is currently \"In Progress.\" If you have any further questions or need assistance, feel free to ask.",
-    "fullResponseTime": 16515,
-    "firstResponseTime": 13486,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "65.93%",
-    "memoryUsageRSS": "0.50%"
-  },
-  {
-    "user": "User 4",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "SarawakID is an online identity system for individuals to securely access Sarawak Government digital services, while SarawakID Corp is the corporate version of this identity system designed for businesses to access those services. Essentially, SarawakID is for individual users, whereas SarawakID Corp is for corporate accounts. To register a SarawakID Corp account, you need to first have a verified SarawakID account.",
-    "fullResponseTime": 11189,
-    "firstResponseTime": 6074,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "71.29%",
-    "memoryUsageRSS": "0.53%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Thinking… (click to collapse) I will research the PCDS 2030 plan for social inclusivity details. Key constraints include limited information on Sarawakian demographics. Missing info on specific initiatives and strategies for inclusivity. I’ve performed an information search and found the following: The PCDS 2030 plan",
+    "fullResponseTime": 68252,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "99.99%",
+    "memoryUsageRSS": "0.49%"
   }
 ]

@@ -1,52 +1,12 @@
 [
   {
     "user": "User 26",
-    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
-    "response": "Based on the context provided, the agency assigned to your Talikhidmat case with the case number 20240325-0006 is \"Talikhidmat.\" The status of the case and the agency is currently \"In Progress.\"",
-    "fullResponseTime": 15420,
-    "firstResponseTime": 6193,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "81.12%",
-    "memoryUsageRSS": "0.57%"
-  },
-  {
-    "user": "User 26",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "I'm sorry, but the provided context does not contain information about SarawakID or SarawakID Corp. Without specific details or context regarding these entities, I cannot accurately describe the differences between them. If you have more information or context about SarawakID and SarawakID Corp, please share it, and I'll do my best to assist you.",
-    "fullResponseTime": 14228,
-    "firstResponseTime": 6109,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "61.81%",
-    "memoryUsageRSS": "0.54%"
-  },
-  {
-    "user": "User 26",
-    "message": "What is a SEG Portal?",
-    "response": "A SEG Portal is a one-stop resource provided by the Sarawak Government that allows users to access all online Sarawak government services and information. It includes a variety of services sorted by topic, and to access these services, users need to register for a Sarawak ID account.",
-    "fullResponseTime": 13051,
-    "firstResponseTime": 6994,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "63.62%",
-    "memoryUsageRSS": "0.56%"
-  },
-  {
-    "user": "User 26",
-    "message": "What is SarawakID?",
-    "response": "SarawakID is an individual's single-sign-on identity that allows secure access to Sarawak Government digital services. It provides an easy and secure way to access these services online. There are two versions: SarawakID for individual use and SarawakID Corp for corporations. To register for SarawakID, you can click the SarawakID Register button on any Sarawak Government website and follow the instructions, or register in person at a Service Sarawak Kiosk or Counter with your MyKad or passport. Verification can be done at Service Sarawak Counters, Kiosks, or online via eKYC.",
-    "fullResponseTime": 12155,
-    "firstResponseTime": 6098,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "64.52%",
-    "memoryUsageRSS": "0.56%"
-  },
-  {
-    "user": "User 26",
-    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
-    "response": "Your request to enroll in the Senior Citizen Health Benefit is currently underway. We are processing the eligibility criteria and will update you once the review is complete. Thank you for your patience.",
-    "fullResponseTime": 36157,
-    "firstResponseTime": 6104,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "60.58%",
-    "memoryUsageRSS": "0.54%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Timeout: No response received",
+    "fullResponseTime": 30000,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "N/A",
+    "memoryUsageRSS": "0.50%"
   }
 ]

@@ -1,52 +1,12 @@
 [
   {
     "user": "User 15",
-    "message": "What is a SEG Portal?",
-    "response": "The SEG Portal is an online resource provided by the Sarawak Government that allows users to access various online services and information related to the Sarawak Government. It serves as a centralized location for all government online services, which are conveniently sorted by topic. To use these services, you need to register for a Sarawak ID account.",
-    "fullResponseTime": 11483,
-    "firstResponseTime": 6425,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "53.83%",
-    "memoryUsageRSS": "0.59%"
-  },
-  {
-    "user": "User 15",
-    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
-    "response": "Certainly! Your Talikhidmat case with the case number 20240325-0006 is currently assigned to the agency named \"Talikhidmat.\" The status of the agency handling your case is \"In Progress.\" If you have further questions or need assistance, feel free to ask!",
-    "fullResponseTime": 15872,
-    "firstResponseTime": 6763,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "52.52%",
-    "memoryUsageRSS": "0.51%"
-  },
-  {
-    "user": "User 15",
-    "message": "How much is the fee for upgrading the registration class in the electrical field?",
-    "response": "I'm sorry, but the provided context does not include information about the fee for upgrading the registration class in the electrical field. You may need to contact the relevant agency or check the Sarawak Government's official website or SEG Portal for more specific information regarding fees and procedures related to electrical registration upgrades.",
-    "fullResponseTime": 10770,
-    "firstResponseTime": 5755,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "43.72%",
-    "memoryUsageRSS": "0.53%"
-  },
-  {
-    "user": "User 15",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "If you are encountering an issue with your IC being previously registered for SarawakID, you should visit a Service Sarawak Kiosk or Counter in person with your MyKad or passport to resolve the issue. They will be able to assist you with checking your registration status and help you with any necessary steps to get your SarawakID registered properly.",
-    "fullResponseTime": 16481,
-    "firstResponseTime": 11231,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "65.38%",
-    "memoryUsageRSS": "0.55%"
-  },
-  {
-    "user": "User 15",
-    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
-    "response": "Thank you for your request regarding the Senior Citizen Health Benefit eligibility. The team is currently looking into this and will provide you with the necessary information shortly.",
-    "fullResponseTime": 38134,
-    "firstResponseTime": 8074,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "78.57%",
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Timeout: No response received",
+    "fullResponseTime": 30000,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "N/A",
     "memoryUsageRSS": "0.51%"
   }
 ]

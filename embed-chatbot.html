@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>SCSPedia TNT</title>
+  <title>SCSPedia</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       height: 100vh;
-      background-image: url('https://www.sarawak.gov.my/web/share/attachment_dl/?id=WXhsZDVmcWdjY0pzcUl4MTQ4RGt5dz09OjpbZbqpB99gG74N4xEF10p6/');
+      background-image: url('https://images.unsplash.com/photo-1462726625343-6a2ab0b9f020?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -24,23 +24,29 @@
 
 <body>
   <script>
-    window.difyChatbotConfig = {
-      token: 'oDDWixigVYHSIDCW',
-      baseUrl: 'https://scspedia.tnt.sarawak.gov.my'
-    }
-  </script>
-  <script src="https://scspedia.tnt.sarawak.gov.my/embed.min.js" id="oDDWixigVYHSIDCW" defer>
-  </script>
-  <style>
-    #dify-chatbot-bubble-button {
-      background-color: #1C64F2 !important;
-    }
-
-    #dify-chatbot-bubble-window {
-      width: 24rem !important;
-      height: 40rem !important;
-    }
-  </style>
+ window.difyChatbotConfig = {
+  token: '',
+  baseUrl: '',
+  chatConfig:{
+    showConfigPanel: false, //to show a configuration panel before chat start
+    key: "{your_chat_key}" //make sure to set showConfigPanel as false if key is provided
+  }
+ }
+</script>
+<script
+ src=""
+ id=""
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #1C64F2 !important;
+  }
+  #dify-chatbot-bubble-window {
+    width: 24rem !important;
+    height: 40rem !important;
+  }
+</style>
 </body>
 
 </html>

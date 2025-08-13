@@ -1,0 +1,33 @@
+{
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "3ppktbqm7540rgup3s95gv7pk4",
+      "domain": "fim2-gov.lab.sains.com.my",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://scspedia.tnt.sarawak.gov.my",
+      "localStorage": [
+        {
+          "name": "refresh_token",
+          "value": "72c1965ccebd6528d762e8702435b2ee23924d4187c76b58d5ed6f19feaa9434db92b41a517148c8270b52631c92962e52bf177de989c02f99298b6d856afba6"
+        },
+        {
+          "name": "setup_status",
+          "value": "finished"
+        },
+        {
+          "name": "console_token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZmRjOWZmOWUtYzFhZC00OWU0LTljYzUtODllYjk4NjNlYTVlIiwiZXhwIjoxNzU0ODk5NzI4LCJpc3MiOiJTRUxGX0hPU1RFRCIsInN1YiI6IkNvbnNvbGUgQVBJIFBhc3Nwb3J0In0.cKhuToWrJNreMeYNk1H01rw31LE99o2oucU76nb_UXg"
+        }
+      ]
+    }
+  ]
+}

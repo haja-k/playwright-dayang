@@ -1,52 +1,12 @@
 [
   {
     "user": "User 10",
-    "message": "What is a SEG Portal?",
-    "response": "A SEG Portal is a one-stop resource provided by the Sarawak Government that allows users to access all online Sarawak government services and information. It includes a variety of online services conveniently sorted by topic. To access these services, users need to register for a Sarawak ID account.",
-    "fullResponseTime": 10723,
-    "firstResponseTime": 6394,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "91.55%",
-    "memoryUsageRSS": "0.53%"
-  },
-  {
-    "user": "User 10",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "SarawakID is an individual account that allows users to access Sarawak government online services. SarawakID Corp, on the other hand, is a corporate account intended for businesses or corporate entities that need access to government services. To register for a SarawakID Corp account, you must first have a verified SarawakID account. The SarawakID Corp involves additional steps, including providing corporate details and verifying documents, which are not required for a regular SarawakID.",
-    "fullResponseTime": 11908,
-    "firstResponseTime": 8539,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "81.62%",
-    "memoryUsageRSS": "0.53%"
-  },
-  {
-    "user": "User 10",
-    "message": "What is SarawakID?",
-    "response": "SarawakID is your individual single-sign-on identity that allows you to securely access Sarawak Government digital services. It provides easy and secure access to various online services offered by the government. There are two versions of SarawakID: one for individual use and another, SarawakID Corp, for corporations. To register for SarawakID, you can click the SarawakID Register button on any Sarawak Government website and follow the registration process.",
-    "fullResponseTime": 12887,
-    "firstResponseTime": 6931,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "95.48%",
-    "memoryUsageRSS": "0.53%"
-  },
-  {
-    "user": "User 10",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "If you are unable to register your SarawakID because your IC has been registered before, it is likely that your IC is already associated with an existing account. Here are some steps you can take: Check for an Existing Account: Ensure that you have not previously registered for a SarawakID. If you have, try logging in using your existing credentials. Reset Password: If you have forgotten your login details, attempt to reset your password using the registered email or phone number linked to your IC. Contact Support: If you are certain that you haven't registered before and the issue persists, contact SarawakID support for assistance. They can provide further guidance on resolving the issue. Visit Service Sarawak Kiosk or Counter: You may also visit a Service Sarawak Kiosk or Counter in person for assistance. Bring your MyKad for verification and help with the registration issue.",
-    "fullResponseTime": 12926,
-    "firstResponseTime": 6635,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "84.65%",
-    "memoryUsageRSS": "0.54%"
-  },
-  {
-    "user": "User 10",
-    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
-    "response": "Based on the context provided, the gas bill with the account number 056-G2299 from Sarawak Gas Distribution Sdn. Bhd. (SGAS) appears to be valid. However, the electricity bill associated with Sarawak Energy Berhad (SEB) and the account number 201166495100 doesn't clearly indicate it's valid for SEB. You might want to double-check the account number for the electricity bill to ensure it matches the format used by SEB. You can refer to a sample electricity bill from SEB here for comparison. If the account number does not match the typical format or if you continue to have doubts, consider contacting SEB directly for verification. Let me know if there's anything else I can assist with!",
-    "fullResponseTime": 19053,
-    "firstResponseTime": 15082,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "49.22%",
-    "memoryUsageRSS": "0.58%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Timeout: No response received",
+    "fullResponseTime": 30000,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "N/A",
+    "memoryUsageRSS": "0.50%"
   }
 ]

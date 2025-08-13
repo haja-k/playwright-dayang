@@ -1,1 +1,1 @@
-npx playwright test dayang.spec.js --headed --project=chromium --workers=5
+npx playwright test scspedia.spec.js --headed --project=chromium --workers=10

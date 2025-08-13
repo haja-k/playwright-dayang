@@ -1,52 +1,12 @@
 [
   {
     "user": "User 29",
-    "message": "May I know which agency has my talikhidmat case assigned to? Case number: 20240325-0006",
-    "response": "Based on the provided context, your Talikhidmat case with the case number 20240325-0006 is currently assigned to the Talikhidmat agency. The status of the case is \"In Progress.\"",
-    "fullResponseTime": 16338,
-    "firstResponseTime": 6162,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "63.33%",
-    "memoryUsageRSS": "0.54%"
-  },
-  {
-    "user": "User 29",
-    "message": "What is the difference between SarawakID and SarawakID Corp?",
-    "response": "I'm sorry, but the provided context does not contain information about SarawakID and SarawakID Corp, so I am unable to explain the difference between them. You might want to reach out to Talikhidmat for more specific information regarding these services.",
-    "fullResponseTime": 16309,
-    "firstResponseTime": 7132,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "61.40%",
-    "memoryUsageRSS": "0.50%"
-  },
-  {
-    "user": "User 29",
-    "message": "Check the gas bill 056-G2299 and seb bill 201166495100.",
-    "response": "For your gas bill with Sarawak Gas Distribution Sdn. Bhd. (SGAS), the account number is 056-G2299. The bill date is 02-07-2025, and the total amount due is RM 22.40. Regarding the electricity bill with Sarawak Energy Berhad (SEB), the account number is 201166495100. However, the context provided does not include specific details about the bill date or amount for the electricity bill. You can proceed with the payment for both your gas and electricity bills through this link. If you need further assistance, feel free to ask!",
-    "fullResponseTime": 21505,
-    "firstResponseTime": 6251,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "63.24%",
-    "memoryUsageRSS": "0.50%"
-  },
-  {
-    "user": "User 29",
-    "message": "I cant register my SarawakID bc it says that my IC has been registered before, what should i do",
-    "response": "If you are having trouble registering your SarawakID because it says your IC has been registered before, you may need to contact the support team for SarawakID. They can help you resolve the issue. Alternatively, you can visit a Service Sarawak Kiosk or Counter in person with your MyKad to see if they can assist you with the registration process.",
-    "fullResponseTime": 12075,
-    "firstResponseTime": 7025,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "63.20%",
-    "memoryUsageRSS": "0.52%"
-  },
-  {
-    "user": "User 29",
-    "message": "If I want to enroll in the Senior Citizen Health Benefit, what are some of the eligibility?",
-    "response": "Thank you for your inquiry regarding the Senior Citizen Health Benefit eligibility. Your request is currently being processed, and you will receive detailed information shortly.",
-    "fullResponseTime": 36447,
-    "firstResponseTime": 6424,
-    "apdexRating": "Satisfactory",
-    "cpuUsagePercent": "29.67%",
-    "memoryUsageRSS": "0.50%"
+    "message": "How does the PCDS 2030 plan aim to achieve social inclusivity for all Sarawakians, and what specific strategies or initiatives are outlined to support this goal?",
+    "response": "Timeout: No response received",
+    "fullResponseTime": 30000,
+    "firstResponseTime": -1,
+    "apdexRating": "Unknown",
+    "cpuUsagePercent": "N/A",
+    "memoryUsageRSS": "0.51%"
   }
 ]
