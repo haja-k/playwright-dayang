@@ -1,0 +1,39 @@
+# i use gitlab-ci.yml to run playwright tests in CI/CD pipeline in my company. i keep a copy of the ci script for reference here
+
+image: docker:23.0.6
+
+variables:
+  GIT_STRATEGY: clone
+  DOCKER_DRIVER: overlay2
+
+default:
+  tags:
+    - svr-runner-2
+
+stages:
+  - load-test
+
+
+playwright-test:
+  stage: load-test
+  image: mcr.microsoft.com/playwright:v1.53.2-jammy
+  before_script:
+    - 'cd playwright'
+    - 'npm install'
+    - 'chmod +x run_test.sh'
+  script:
+    - './run_test.sh'
+  artifacts:
+    when: always
+    paths:
+      - playwright/chatbot-responses-combined.xlsx
+      - playwright/chatbot-temp/*.json
+      - playwright/test-results/html-report/
+      - playwright/test-results/artifacts/
+      - playwright/test-results/results.xml
+      - playwright/test-results/results.json
+    reports:
+      junit: playwright/test-results/results.xml
+    expire_in: 1 week
+  # tags:
+  #   - haja-runner

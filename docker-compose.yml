@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  playwright-scspedia:
+    container_name: playwright-scspedia
+    # Build the Docker image from the Dockerfile in current directory
+    build: .
+    working_dir: /app
+    volumes:
+      # Mount current directory to /app in container (for live code updates)
+      - ./:/app/
+      # Mount specific directories to persist test results on host machine
+      - ./test-results:/app/test-results
+      - ./chatbot-temp:/app/chatbot-temp
+    environment:
+      # Set environment variables
+      - NODE_ENV=test
+      # Disable Playwright's update notifications in container
+      - PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+    # Use the default CMD from Dockerfile (./run_test.sh)
+    # The script will now automatically run combine_result.js after tests complete

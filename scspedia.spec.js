@@ -1,8 +1,8 @@
-// scspedia.spec.ts
-import { test, expect } from '@playwright/test';
-import * as fs from 'fs';
-import * as path from 'path';
-import * as os from 'os';
+// scspedia.spec.js - JavaScript version (fixed imports)
+const { test, expect } = require('@playwright/test');
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
 
 // Temporary directory to save results
 const TEMP_DIR = path.join(__dirname, 'chatbot-temp');
